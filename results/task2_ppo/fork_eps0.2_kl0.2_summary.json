@@ -1,0 +1,9 @@
+{
+  "run": "fork_eps0.2_kl0.2",
+  "updates": 8,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.2,
+  "wall_s": 68.79004095399978,
+  "peak_vram_gib": 8.210626125335693,
+  "responses_per_prompt": 1
+}

@@ -1,0 +1,3 @@
+model,pref_acc_overall,gen_len_mean,gen_len_std,rm_mean,kl_token,wl_compliance,wl_n_parsed,wl_len_mean,acc_length_matched,n_length_matched,acc_preferred_longer,n_preferred_longer,acc_rejected_longer,n_rejected_longer
+standard,0.6379310344827587,190.48,91.98342024517244,1.3944381713867187,-7.514230566567099e-05,0.4,10,47.7,0.6,80,0.46153846153846156,78,0.6708860759493671,79
+length_balanced,0.6172413793103448,186.99,93.35378888936431,1.4693765258789062,0.0023005809603048087,0.4,10,46.2,0.6,80,0.4358974358974359,78,0.759493670886076,79

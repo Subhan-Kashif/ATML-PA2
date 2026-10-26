@@ -1,0 +1,143 @@
+{
+  "n_problems": 20,
+  "categories": {
+    "reasoning_corruption": {
+      "verifier": {
+        "n": 20,
+        "better_rate": 0.0,
+        "tie_rate": 1.0,
+        "wrong_rate": 0.0
+      },
+      "judge": {
+        "n": 20,
+        "better_rate": 0.0,
+        "tie_rate": 1.0,
+        "wrong_rate": 0.0
+      }
+    },
+    "wrong_final_good_reasoning": {
+      "verifier": {
+        "n": 20,
+        "better_rate": 1.0,
+        "tie_rate": 0.0,
+        "wrong_rate": 0.0
+      },
+      "judge": {
+        "n": 20,
+        "better_rate": 0.0,
+        "tie_rate": 1.0,
+        "wrong_rate": 0.0
+      }
+    },
+    "gold_distractor_wrong_final": {
+      "verifier": {
+        "n": 20,
+        "better_rate": 1.0,
+        "tie_rate": 0.0,
+        "wrong_rate": 0.0
+      },
+      "judge": {
+        "n": 20,
+        "better_rate": 0.25,
+        "tie_rate": 0.7,
+        "wrong_rate": 0.05
+      }
+    },
+    "persuasive_filler": {
+      "verifier": {
+        "n": 20,
+        "better_rate": 0.0,
+        "tie_rate": 1.0,
+        "wrong_rate": 0.0
+      },
+      "judge": {
+        "n": 20,
+        "better_rate": 0.0,
+        "tie_rate": 0.75,
+        "wrong_rate": 0.25
+      }
+    }
+  },
+  "verifier_expected_mismatches": [],
+  "judge_cost": {
+    "new_calls": 200,
+    "seconds": 85.09440658000312,
+    "seconds_per_new_call": 0.4254720329000156
+  },
+  "S_reason": {
+    "verifier": {
+      "n": 20,
+      "better_rate": 0.0,
+      "tie_rate": 1.0,
+      "wrong_rate": 0.0
+    },
+    "judge": {
+      "n": 20,
+      "better_rate": 0.0,
+      "tie_rate": 1.0,
+      "wrong_rate": 0.0
+    }
+  },
+  "S_outcome": {
+    "verifier": {
+      "n": 40,
+      "better_rate": 1.0,
+      "tie_rate": 0.0,
+      "wrong_rate": 0.0
+    },
+    "judge": {
+      "n": 40,
+      "better_rate": 0.125,
+      "tie_rate": 0.85,
+      "wrong_rate": 0.025
+    }
+  },
+  "outcome_pooled": {
+    "verifier": {
+      "n": 40,
+      "better_rate": 1.0,
+      "tie_rate": 0.0,
+      "wrong_rate": 0.0
+    },
+    "judge": {
+      "n": 40,
+      "better_rate": 0.125,
+      "tie_rate": 0.85,
+      "wrong_rate": 0.025
+    }
+  },
+  "variant_mean_reward": {
+    "clean_correct": {
+      "verifier_exact": 1.0,
+      "judge_group_winrate": 0.49375
+    },
+    "corrupt_reasoning_correct_final": {
+      "verifier_exact": 1.0,
+      "judge_group_winrate": 0.5
+    },
+    "good_reasoning_wrong_final": {
+      "verifier_exact": 0.0,
+      "judge_group_winrate": 0.475
+    },
+    "persuasive_filler_correct": {
+      "verifier_exact": 1.0,
+      "judge_group_winrate": 0.5875
+    },
+    "gold_distractor_wrong_final": {
+      "verifier_exact": 0.0,
+      "judge_group_winrate": 0.44375
+    }
+  },
+  "verbosity": {
+    "judge_prefers_longer_among_decisive_pairs": 0.8518518518518519,
+    "n_decisive_length_differing_pairs": 27,
+    "corr_group_winrate_vs_words": 0.1405752279387306,
+    "mean_words_by_variant": {
+      "clean_correct": 56.35,
+      "corrupt_reasoning_correct_final": 56.35,
+      "good_reasoning_wrong_final": 56.35,
+      "persuasive_filler_correct": 66.35,
+      "gold_distractor_wrong_final": 16.0
+    }
+  }
+}

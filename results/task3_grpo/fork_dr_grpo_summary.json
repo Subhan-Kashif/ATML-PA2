@@ -1,0 +1,8 @@
+{
+  "run": "fork_dr_grpo",
+  "loss_type": "dr_grpo",
+  "updates": 8,
+  "K": 4,
+  "wall_s": 92.528404572,
+  "peak_vram_gib": 7.268759727478027
+}

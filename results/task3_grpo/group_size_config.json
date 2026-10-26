@@ -1,0 +1,6 @@
+{
+  "tolerance": 1e-06,
+  "practical_threshold": 0.38928753508406005,
+  "n_perm": 200,
+  "bin_rule": "rank prompts by mean cached reward over 8 completions, split into terciles"
+}

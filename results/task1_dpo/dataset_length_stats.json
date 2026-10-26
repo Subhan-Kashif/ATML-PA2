@@ -1,0 +1,17 @@
+{
+  "standard_train": {
+    "n": 1500,
+    "frac_chosen_longer": 0.554,
+    "mean_word_diff_chosen_minus_rejected": 29.431333333333335
+  },
+  "balanced_train": {
+    "n": 1500,
+    "frac_chosen_longer": 0.4693333333333333,
+    "mean_word_diff_chosen_minus_rejected": 2.522666666666667
+  },
+  "balanced_strata_counts": {
+    "rejected_longer": 500,
+    "preferred_longer": 500,
+    "length_matched": 500
+  }
+}

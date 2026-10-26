@@ -1,0 +1,16 @@
+{
+  "name": "fork_dr_grpo",
+  "adapter": "outputs/task3_grpo/fork_dr_grpo",
+  "n": 100,
+  "max_new_tokens": 512,
+  "rm_mean": 1.44830078125,
+  "rm_std": 1.2769830124917425,
+  "kl_token": 0.00021061910798093455,
+  "kl_seq": 0.05298966137692332,
+  "entropy": 0.949861036531923,
+  "len_mean": 251.59,
+  "len_std": 196.6089568152987,
+  "len_median": 237.0,
+  "trunc_rate": 0.21,
+  "eos_rate": 0.79
+}

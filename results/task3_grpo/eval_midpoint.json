@@ -1,0 +1,16 @@
+{
+  "name": "midpoint",
+  "adapter": "checkpoints/grpo_midpoint_policy",
+  "n": 100,
+  "max_new_tokens": 512,
+  "rm_mean": 1.457666015625,
+  "rm_std": 1.2157908524770267,
+  "kl_token": 8.925807473950628e-05,
+  "kl_seq": 0.021883402183884754,
+  "entropy": 0.9292829586530669,
+  "len_mean": 245.17,
+  "len_std": 191.6649709780063,
+  "len_median": 227.0,
+  "trunc_rate": 0.22,
+  "eos_rate": 0.78
+}

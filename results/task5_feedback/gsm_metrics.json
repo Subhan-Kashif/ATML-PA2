@@ -1,0 +1,87 @@
+{
+  "dataset": "gsm",
+  "n": 300,
+  "max_new_tokens": 512,
+  "policies": {
+    "sft": {
+      "n": 300,
+      "exact_accuracy": 0.2833333333333333,
+      "format_compliance": 0.35,
+      "mean_response_tokens": 274.33,
+      "mean_response_words": 156.43333333333334,
+      "truncation_rate": 0.016666666666666666,
+      "failure_types": {
+        "missing_format": 0.6333333333333333,
+        "correct": 0.2833333333333333,
+        "wrong_answer": 0.06666666666666667,
+        "truncated_no_answer": 0.016666666666666666
+      },
+      "gen_seconds": 576.0045379490002
+    },
+    "rlvr": {
+      "n": 300,
+      "exact_accuracy": 0.2866666666666667,
+      "format_compliance": 0.36,
+      "mean_response_tokens": 275.87666666666667,
+      "mean_response_words": 157.07333333333332,
+      "truncation_rate": 0.02,
+      "failure_types": {
+        "missing_format": 0.62,
+        "correct": 0.2866666666666667,
+        "wrong_answer": 0.07333333333333333,
+        "truncated_no_answer": 0.02
+      },
+      "gen_seconds": 747.4397168180003
+    },
+    "rlaif": {
+      "n": 300,
+      "exact_accuracy": 0.2866666666666667,
+      "format_compliance": 0.36,
+      "mean_response_tokens": 275.45,
+      "mean_response_words": 157.02666666666667,
+      "truncation_rate": 0.023333333333333334,
+      "failure_types": {
+        "missing_format": 0.6166666666666667,
+        "correct": 0.2866666666666667,
+        "wrong_answer": 0.07333333333333333,
+        "truncated_no_answer": 0.023333333333333334
+      },
+      "gen_seconds": 751.3341338190003
+    }
+  },
+  "vs_sft": {
+    "rlvr": {
+      "n": 300,
+      "judge_wins": 8,
+      "judge_ties": 286,
+      "judge_losses": 6,
+      "win_rate_strict": 0.02666666666666667,
+      "win_rate_ties_half": 0.5033333333333333,
+      "agreement_all": 0.92,
+      "agreement_when_verifier_decisive": 0.07692307692307693,
+      "judge_decisive_when_verifier_tie": 0.041811846689895474,
+      "judge_contradicts_verifier": 0.07692307692307693,
+      "verifier_decisive_fraction": 0.043333333333333335,
+      "corr_judge_vs_verifier_delta": -0.0004944650935935716
+    },
+    "rlaif": {
+      "n": 300,
+      "judge_wins": 5,
+      "judge_ties": 287,
+      "judge_losses": 8,
+      "win_rate_strict": 0.016666666666666666,
+      "win_rate_ties_half": 0.495,
+      "agreement_all": 0.9366666666666666,
+      "agreement_when_verifier_decisive": 0.0,
+      "judge_decisive_when_verifier_tie": 0.040955631399317405,
+      "judge_contradicts_verifier": 0.14285714285714285,
+      "verifier_decisive_fraction": 0.023333333333333334,
+      "corr_judge_vs_verifier_delta": -0.10392489984165833
+    }
+  },
+  "judge": {
+    "new_calls": 354,
+    "seconds": 217.24510457699944,
+    "seconds_per_new_call": 0.6136867360932188
+  }
+}

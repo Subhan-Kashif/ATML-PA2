@@ -1,0 +1,84 @@
+{
+  "dataset": "transfer",
+  "n": 100,
+  "max_new_tokens": 512,
+  "policies": {
+    "sft": {
+      "n": 100,
+      "exact_accuracy": 0.44,
+      "format_compliance": 0.57,
+      "mean_response_tokens": 163.96,
+      "mean_response_words": 99.01,
+      "truncation_rate": 0.0,
+      "failure_types": {
+        "missing_format": 0.43,
+        "correct": 0.44,
+        "wrong_answer": 0.13
+      },
+      "gen_seconds": 136.32981505700081
+    },
+    "rlvr": {
+      "n": 100,
+      "exact_accuracy": 0.46,
+      "format_compliance": 0.59,
+      "mean_response_tokens": 164.07,
+      "mean_response_words": 99.23,
+      "truncation_rate": 0.0,
+      "failure_types": {
+        "missing_format": 0.41,
+        "correct": 0.46,
+        "wrong_answer": 0.13
+      },
+      "gen_seconds": 176.44391360100053
+    },
+    "rlaif": {
+      "n": 100,
+      "exact_accuracy": 0.44,
+      "format_compliance": 0.57,
+      "mean_response_tokens": 162.98,
+      "mean_response_words": 98.34,
+      "truncation_rate": 0.0,
+      "failure_types": {
+        "missing_format": 0.43,
+        "correct": 0.44,
+        "wrong_answer": 0.13
+      },
+      "gen_seconds": 174.9185722939983
+    }
+  },
+  "vs_sft": {
+    "rlvr": {
+      "n": 100,
+      "judge_wins": 12,
+      "judge_ties": 79,
+      "judge_losses": 9,
+      "win_rate_strict": 0.12,
+      "win_rate_ties_half": 0.515,
+      "agreement_all": 0.77,
+      "agreement_when_verifier_decisive": 0.25,
+      "judge_decisive_when_verifier_tie": 0.20833333333333334,
+      "judge_contradicts_verifier": 0.0,
+      "verifier_decisive_fraction": 0.04,
+      "corr_judge_vs_verifier_delta": 0.10330069518912889
+    },
+    "rlaif": {
+      "n": 100,
+      "judge_wins": 13,
+      "judge_ties": 79,
+      "judge_losses": 8,
+      "win_rate_strict": 0.13,
+      "win_rate_ties_half": 0.525,
+      "agreement_all": 0.79,
+      "agreement_when_verifier_decisive": 0.5,
+      "judge_decisive_when_verifier_tie": 0.20408163265306123,
+      "judge_contradicts_verifier": 0.0,
+      "verifier_decisive_fraction": 0.02,
+      "corr_judge_vs_verifier_delta": 0.15523010514126645
+    }
+  },
+  "judge": {
+    "new_calls": 107,
+    "seconds": 50.88144843099872,
+    "seconds_per_new_call": 0.47552755542989456
+  }
+}

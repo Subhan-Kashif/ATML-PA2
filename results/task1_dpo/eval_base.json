@@ -1,0 +1,57 @@
+{
+  "name": "base",
+  "adapter": null,
+  "beta": 0.1,
+  "pref": {
+    "n": 290,
+    "skipped_long_prompt": 10,
+    "loss": 0.6931471824645996,
+    "acc": 0.0,
+    "margin_mean": 0.0
+  },
+  "gen": {
+    "n": 100,
+    "len_mean": 188.28,
+    "len_std": 94.76308141887326,
+    "len_median": 256.0,
+    "trunc_rate": 0.57,
+    "kl_token": 0.0,
+    "kl_seq": 0.0,
+    "rm_mean": 1.3237482452392577,
+    "rm_std": 1.213099086889479
+  },
+  "strata": {
+    "length_matched": {
+      "n": 80,
+      "acc": 0.0,
+      "margin_mean": 0.0,
+      "loss": 0.6931471824645996
+    },
+    "preferred_longer": {
+      "n": 78,
+      "acc": 0.0,
+      "margin_mean": 0.0,
+      "loss": 0.6931471824645996
+    },
+    "rejected_longer": {
+      "n": 79,
+      "acc": 0.0,
+      "margin_mean": 0.0,
+      "loss": 0.6931471824645996
+    }
+  },
+  "strata_overall": {
+    "n": 237,
+    "skipped_long_prompt": 9,
+    "loss": 0.6931471824645996,
+    "acc": 0.0,
+    "margin_mean": 0.0
+  },
+  "word_limit": {
+    "n_prompts": 10,
+    "n_parsed": 10,
+    "compliance": 0.5,
+    "len_mean": 47.8,
+    "len_std": 19.72206885699368
+  }
+}

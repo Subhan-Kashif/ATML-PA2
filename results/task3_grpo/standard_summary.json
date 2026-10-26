@@ -1,0 +1,8 @@
+{
+  "run": "standard",
+  "loss_type": "grpo",
+  "updates": 20,
+  "K": 4,
+  "wall_s": 325.15880752200246,
+  "peak_vram_gib": 7.717136859893799
+}

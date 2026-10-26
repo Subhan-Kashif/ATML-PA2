@@ -1,0 +1,15 @@
+{
+  "name": "standard",
+  "adapter": "outputs/task2_ppo/standard",
+  "n": 40,
+  "rm_mean": 1.7804443359375,
+  "rm_std": 1.2154453728356573,
+  "kl_token": 1.9348126426749476e-05,
+  "kl_seq": 0.005181911960244178,
+  "entropy": 1.0791682151033133,
+  "len_mean": 267.825,
+  "len_std": 238.78126889477744,
+  "len_median": 191.5,
+  "trunc_rate": 0.1,
+  "eos_rate": 0.9
+}

@@ -1,0 +1,16 @@
+{
+  "name": "standard",
+  "adapter": "outputs/task3_grpo/standard",
+  "n": 100,
+  "max_new_tokens": 512,
+  "rm_mean": 1.50632080078125,
+  "rm_std": 1.2121901802791575,
+  "kl_token": 0.00013306477989432654,
+  "kl_seq": 0.035270150558790195,
+  "entropy": 0.9587869725605344,
+  "len_mean": 265.06,
+  "len_std": 194.7733462258119,
+  "len_median": 276.0,
+  "trunc_rate": 0.22,
+  "eos_rate": 0.78
+}

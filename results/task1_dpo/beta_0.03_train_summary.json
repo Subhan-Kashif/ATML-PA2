@@ -1,0 +1,8 @@
+{
+  "run": "beta_0.03",
+  "beta": 0.03,
+  "examples": 600,
+  "optimizer_steps": 38,
+  "wall_s": 523.511012121,
+  "peak_vram_gib": 6.655945777893066
+}

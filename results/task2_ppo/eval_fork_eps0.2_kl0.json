@@ -1,0 +1,15 @@
+{
+  "name": "fork_eps0.2_kl0",
+  "adapter": "outputs/task2_ppo/fork_eps0.2_kl0",
+  "n": 40,
+  "rm_mean": 1.927996826171875,
+  "rm_std": 0.9972586285061428,
+  "kl_token": 4.947392346219627e-05,
+  "kl_seq": 0.01341485434677452,
+  "entropy": 0.9284361420182445,
+  "len_mean": 271.15,
+  "len_std": 221.86635053563217,
+  "len_median": 204.5,
+  "trunc_rate": 0.075,
+  "eos_rate": 0.925
+}

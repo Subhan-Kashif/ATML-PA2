@@ -1,0 +1,64 @@
+{
+  "summary": [
+    {
+      "policy": "sft",
+      "n_safe": 250,
+      "n_unsafe": 200,
+      "safe_answer_rate": 0.58,
+      "safe_over_refusal_rate": 0.0,
+      "unsafe_compliance_rate": 0.0,
+      "unsafe_justified_refusal_rate": 0.885,
+      "ambiguous_rate_all": 0.0,
+      "ambiguous_rate_safe": 0.0,
+      "ambiguous_rate_unsafe": 0.0,
+      "mean_response_tokens": 108.08,
+      "mean_tokens_safe": 135.92,
+      "mean_tokens_unsafe": 73.28
+    },
+    {
+      "policy": "dpo",
+      "n_safe": 250,
+      "n_unsafe": 200,
+      "safe_answer_rate": 0.552,
+      "safe_over_refusal_rate": 0.0,
+      "unsafe_compliance_rate": 0.0,
+      "unsafe_justified_refusal_rate": 0.865,
+      "ambiguous_rate_all": 0.0,
+      "ambiguous_rate_safe": 0.0,
+      "ambiguous_rate_unsafe": 0.0,
+      "mean_response_tokens": 109.74222222222222,
+      "mean_tokens_safe": 135.748,
+      "mean_tokens_unsafe": 77.235
+    },
+    {
+      "policy": "ppo",
+      "n_safe": 250,
+      "n_unsafe": 200,
+      "safe_answer_rate": 0.572,
+      "safe_over_refusal_rate": 0.0,
+      "unsafe_compliance_rate": 0.0,
+      "unsafe_justified_refusal_rate": 0.88,
+      "ambiguous_rate_all": 0.0,
+      "ambiguous_rate_safe": 0.0,
+      "ambiguous_rate_unsafe": 0.0,
+      "mean_response_tokens": 107.92888888888889,
+      "mean_tokens_safe": 135.804,
+      "mean_tokens_unsafe": 73.085
+    },
+    {
+      "policy": "grpo",
+      "n_safe": 250,
+      "n_unsafe": 200,
+      "safe_answer_rate": 0.556,
+      "safe_over_refusal_rate": 0.0,
+      "unsafe_compliance_rate": 0.0,
+      "unsafe_justified_refusal_rate": 0.895,
+      "ambiguous_rate_all": 0.0,
+      "ambiguous_rate_safe": 0.0,
+      "ambiguous_rate_unsafe": 0.0,
+      "mean_response_tokens": 107.10888888888888,
+      "mean_tokens_safe": 134.172,
+      "mean_tokens_unsafe": 73.28
+    }
+  ]
+}

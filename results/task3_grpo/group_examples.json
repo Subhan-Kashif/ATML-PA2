@@ -1,0 +1,89 @@
+{
+  "hardest": {
+    "source_index": "671",
+    "rewards": [
+      -2.0,
+      -3.359375,
+      -3.8125,
+      1.8828125,
+      -0.0703125,
+      -1.78125,
+      0.82421875,
+      -3.328125
+    ],
+    "k2_group_stds": [
+      0.6796875,
+      2.84765625,
+      0.85546875,
+      2.076171875
+    ],
+    "completions": [
+      {
+        "reward": -3.8125,
+        "text": "ાની વિશ્વાષ્થતા હોય છે.\nSolution: She will also have her rights as an ordinary person, a respectable government, a visible society, a peaceful state and a qualified citizenship. She will be able to work in this country with great authority.\nInput: ସୌ"
+      },
+      {
+        "reward": 1.8828125,
+        "text": "ા ગરુની ભાગો છે.\nSolution: ସର୍ଥ୍ୟ ସଙ୍କ୍ଷିତ ସ୍ଥାନରେ, ଏବଂ ଯେଉଁ ଏବଂ ଯେଉଁ ଉଝ୍ଞତା ହୋଇ, ଲୋକଖୁମନ୍ତ୍ରୀ ସଂଘରୀର ସମସ୍ତ ମୂଳୀ ହୋଇ, ପାର୍ଦର୍ଶ୍କ ଶାସ୍ତ୍ର ହୋଇ, ଚୋକ୍ସସି ହୋଇ ଅଭିମ୍ମ ସ୍ୱତା ହୋଇ ଅଭିମ୍ମ ସ୍ୱତା କ୍ଷେତ୍ର ହୋଇ।\nInput: ફેરબાદ જુઓ કે ક્યાં તેના મૂલ્યો હોય અને કે તે "
+      }
+    ]
+  },
+  "easiest": {
+    "source_index": "507",
+    "rewards": [
+      2.078125,
+      3.71875,
+      2.625,
+      3.5,
+      2.265625,
+      3.921875,
+      3.796875,
+      3.859375
+    ],
+    "k2_group_stds": [
+      0.8203125,
+      0.4375,
+      0.828125,
+      0.03125
+    ],
+    "completions": [
+      {
+        "reward": 2.078125,
+        "text": "She consistently puts in significant effort every day."
+      },
+      {
+        "reward": 3.921875,
+        "text": "He consistently puts in significant effort every day."
+      }
+    ]
+  },
+  "median": {
+    "source_index": "436",
+    "rewards": [
+      2.515625,
+      2.25,
+      1.3125,
+      2.546875,
+      2.1875,
+      2.390625,
+      2.1875,
+      2.3125
+    ],
+    "k2_group_stds": [
+      0.1328125,
+      0.6171875,
+      0.1015625,
+      0.0625
+    ],
+    "completions": [
+      {
+        "reward": 1.3125,
+        "text": "To achieve this task using Python with libraries like `selenium`, you can follow these steps:\n\n1. **Install Selenium**: If you haven't already installed Selenium, you'll need to install it first.\n   ```bash\n   pip install selenium\n   ```\n\n2. **Downlo"
+      },
+      {
+        "reward": 2.546875,
+        "text": "To achieve this task using Python with libraries like `selenium` and `pyautogui`, you can follow these steps:\n\n1. **Install Necessary Libraries**:\n   - Install `selenium` if you haven't already.\n   - Use `pyautogui` for interacting with the GUI.\n\n```"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "midpoint",
+  "adapter": "checkpoints/ppo_midpoint_policy",
+  "n": 40,
+  "rm_mean": 1.8166839599609375,
+  "rm_std": 1.1497971099801787,
+  "kl_token": -1.08208670462902e-05,
+  "kl_seq": -0.003044991986826062,
+  "entropy": 1.018947985433651,
+  "len_mean": 281.4,
+  "len_std": 228.99954148425712,
+  "len_median": 215.5,
+  "trunc_rate": 0.05,
+  "eos_rate": 0.95
+}

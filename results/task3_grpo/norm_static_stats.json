@@ -1,0 +1,22 @@
+{
+  "grpo": {
+    "n": 29,
+    "len_median": 173.0,
+    "elasticity": -0.7175676789393266,
+    "elasticity_lo": -0.7844779452270624,
+    "elasticity_hi": -0.6061860180103981,
+    "norm_per_adv_long_over_short": 0.19215476883813543,
+    "grad_share_long_half": 0.18694199116867727,
+    "spearman_len_vs_norm_per_adv": -0.9721606602004723
+  },
+  "dr_grpo": {
+    "n": 29,
+    "len_median": 173.0,
+    "elasticity": 0.28297231643162996,
+    "elasticity_lo": 0.21708849769796965,
+    "elasticity_hi": 0.3929538948977266,
+    "norm_per_adv_long_over_short": 1.9736743979482896,
+    "grad_share_long_half": 0.6705730904664534,
+    "spearman_len_vs_norm_per_adv": 0.9253510997752088
+  }
+}

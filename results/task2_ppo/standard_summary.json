@@ -1,0 +1,9 @@
+{
+  "run": "standard",
+  "updates": 20,
+  "clip_epsilon": 0.2,
+  "kl_beta": 0.1,
+  "wall_s": 254.45816476699838,
+  "peak_vram_gib": 8.210609912872314,
+  "responses_per_prompt": 1
+}
